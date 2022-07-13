@@ -16,4 +16,10 @@ $emp2->salary = 2000;
 
 // Выведем сумму зарплат
 $salarySum = $emp->salary + $emp2->salary;
-echo $salarySum;
+echo "Сумма зарплат работников равна: " . $salarySum;
+
+echo "<br/><br/>";
+
+// Выведем сумму возрастов
+$ageSum = $emp->age + $emp2->age;
+echo "Сумма возрастов работников равна: " . $ageSum;
